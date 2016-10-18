@@ -1,45 +1,67 @@
-# frontend-starter
-A frontend starter kit that I try to keep up to date. 🤗
+# Frontend-starter
+A frontend starter kit that I'll try to keep up to date with the best tech out there. 🤗
 
 
 ## Install
 
-`npm install -g yarn flow-bin babel-cli eslint`
+```sh
+npm install -g yarn flow-bin babel-cli eslint
+```
 
-And then `yarn` or `npm install` (`yarn` is waaaay faster)
+And then :
+
+```sh
+yarn
+``` 
+
+or 
+
+```sh
+npm install
+``` 
+
+(`yarn` is waaaaaaay faster  🚀 )
+
+
 
 ## Run
 
- * `npm start`
- * `npm run start_server`
+```sh
+> npm start
+```
+
+
+```sh
+> npm run start_server
+```
 
 
 ## Features
 
 This project is already configured with :
 
-  - Webpack 2
-  - Live CSS Injection
-  - Hot Module Replacement for React
-  <!-- - Redux Devtools for Time travel -->
-  <!-- - Server-side rendering live-reload -->
-  - Static Type checking with FlowType
-  - Linting with ESLint
-  - ES6+ using Babel 6
+- Webpack 2
+- Hot Module Replacement 
+- Static Type checking with FlowType
+- Linting with ESLint
+- ES6+ using Babel
 
 
-  If you want the best developer experience (optional), I suggest you to install 🚀 :
+If you want the best developer experience, I suggest you to install ✨ :
 
-  - [Atom Editor](https://atom.io)
-  - [Nuclide](http://nuclide.io)
-  - [FlowType](http://flowtype.org)
+- [Atom Editor](https://atom.io)
+- [Nuclide](http://nuclide.io)
+- [FlowType](http://flowtype.org)
+
 
 ## Build
-```npm run build_client:prod```
+```sh
+> npm run build_client:prod
+```
 
 
 ## TODO
-Remaining things to add :
+Things to add :
 
 * [Code splitting](http://webpack.github.io/docs/code-splitting.html)
 * Image optimisation
