@@ -5,19 +5,19 @@ A frontend starter kit that I'll try to keep up to date with the best tech out t
 ## Install
 
 ```sh
-npm install -g yarn flow-bin babel-cli eslint
+> npm install -g yarn flow-bin babel-cli eslint
 ```
 
 And then :
 
 ```sh
-yarn
+> yarn
 ``` 
 
 or 
 
 ```sh
-npm install
+> npm install
 ``` 
 
 (`yarn` is waaaaaaay faster  🚀 )
